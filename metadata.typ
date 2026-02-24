@@ -1,12 +1,12 @@
 #let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
-#let naslov = "Шаблон и упутство за писање завршних радова"
-#let autor = "Уписати име и презиме"
+#let naslov = "ЈСД за опис пословних процеса"
+#let autor = "Бане Герић"
 
 // На енглеском
-#let naslov_eng = "Template and tutorial for thesis preparation"
-#let autor_eng = "Upisati ime i prezime na latinici"
+#let naslov_eng = "DSL for business processes"
+#let autor_eng = "Bane Gerić"
 
-#let indeks = "Уписати индекс"
+#let indeks = "R232/2023"
 
 // Име и презиме ментора
 #let mentor = "Игор Дејановић"
@@ -23,21 +23,21 @@
 
 #let kljucne_reci = "Шаблон, завршни рад, упутство"
 #let apstrakt = [
-     Овај документ представља упутство за писање завршних радова на Факултету
-     техничких наука Универзитета у Новом Саду. У исто време је и шаблон за Typst.
+  Овај документ представља упутство за писање завршних радова на Факултету
+  техничких наука Универзитета у Новом Саду. У исто време је и шаблон за Typst.
 ]
 
 // На енглеском
 #let kljucne_reci_eng = "Template, thesis, tutorial"
 #let apstrakt_eng = [
-     This document provides guidelines for writing final theses at the Faculty
-     of Technical Sciences, University of Novi Sad. At the same time, it serves
-     as a Typst template.
+  This document provides guidelines for writing final theses at the Faculty
+  of Technical Sciences, University of Novi Sad. At the same time, it serves
+  as a Typst template.
 ]
 
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
 #let zadatak = [
-     #lorem(100)
+  #lorem(100)
 ]
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
@@ -56,9 +56,9 @@
 // Ово даље углавном не треба мењати.
 
 #let zvanje_eng = (
-     "редовни професор": "full professor",
-     "ванредни професор": "assoc. professor",
-     "доцент": "asist. professor",
+  "редовни професор": "full professor",
+  "ванредни професор": "assoc. professor",
+  "доцент": "asist. professor",
 )
 #let komisija_predsednik_zvanje_eng = zvanje_eng.at(komisija_predsednik_zvanje)
 #let komisija_clan_zvanje_eng = zvanje_eng.at(komisija_clan_zvanje)
@@ -66,9 +66,9 @@
 
 
 #let vrsta_rada = if stepen == "Мастер академске студије" {
-    "Дипломски - мастер рад"
+  "Дипломски - мастер рад"
 } else {
-    "Дипломски - бечелор рад"
+  "Дипломски - бечелор рад"
 }
 
 #let oblast = "Електротехничко и рачунарско инжењерство"
