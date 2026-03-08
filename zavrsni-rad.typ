@@ -70,10 +70,9 @@
 #include "poglavlja/1-uvod.typ"
 #include "poglavlja/2-teorijski-okvir.typ"
 #include "poglavlja/3-dizajn-bpml.typ"
-#include "poglavlja/4-backend.typ"
-#include "poglavlja/5-frontend.typ"
-#include "poglavlja/6-validacija.typ"
-#include "poglavlja/7-zakljucak.typ"
+#include "poglavlja/4-generisanje-koda.typ"
+#include "poglavlja/5-validacija.typ"
+#include "poglavlja/6-zakljucak.typ"
 
 
 
