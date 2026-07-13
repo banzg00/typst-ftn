@@ -21,29 +21,26 @@
 
 #let godina = [#datetime.today().year()]
 
-#let kljucne_reci = "Шаблон, завршни рад, упутство"
+#let kljucne_reci = "језик специфичан за домен, пословни процеси, моделом вођен развој, генерисање кода, TextX, Spring Boot, React, процесна машина"
 #let apstrakt = [
-  Овај документ представља упутство за писање завршних радова на Факултету
-  техничких наука Универзитета у Новом Саду. У исто време је и шаблон за Typst.
+  У раду је представљен FlowGen, екстерни језик специфичан за домен намијењен моделовању пословних процеса и аутоматском генерисању full-stack софтверских система. Језик је имплементиран употребом TextX алата и омогућава декларативно дефинисање ентитета, улога, стања, задатака и транзиција, уз статичку семантичку валидацију модела. Из једне спецификације, путем Jinja2 шаблонског механизма, генерише се Spring Boot backend и React/TypeScript frontend апликација са процесном машином. Валидација је спроведена кроз студију случаја система за одобравање фактура, којом је потврђена функционална исправност генерисаног система.
 ]
 
 // На енглеском
-#let kljucne_reci_eng = "Template, thesis, tutorial"
+#let kljucne_reci_eng = "domain-specific language, business processes, model-driven development, code generation, TextX, Spring Boot, React, process engine"
 #let apstrakt_eng = [
-  This document provides guidelines for writing final theses at the Faculty
-  of Technical Sciences, University of Novi Sad. At the same time, it serves
-  as a Typst template.
+  This thesis presents FlowGen, an external domain-specific language for modeling business processes and automatically generating full-stack software systems. The language is implemented using the TextX tool and enables declarative definition of entities, roles, states, tasks, and transitions, with static semantic validation of models. From a single specification, using the Jinja2 template engine, the system generates a Spring Boot backend and a React/TypeScript frontend application with a process engine. Validation was conducted through a case study of an invoice approval system, confirming the functional correctness of the generated system.
 ]
 
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
 #let zadatak = [
-    Истражити области језика специфичних за домен и описа пословних процеса.
-    Анализирати постојећа решења.
-    Дизајнирати и имплементирати језик специфичан за домен пословних процеса.
-    Упоредити решење са постојећим решењима и приступима у области.
-    
-    У изради користити најбољу праксу из области софтверског инжењерства.
-    Детаљно документовати решење.
+  Истражити области језика специфичних за домен и описа пословних процеса.
+  Анализирати постојећа решења.
+  Дизајнирати и имплементирати језик специфичан за домен пословних процеса.
+  Упоредити решење са постојећим решењима и приступима у области.
+
+  У изради користити најбољу праксу из области софтверског инжењерства.
+  Детаљно документовати решење.
 ]
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
