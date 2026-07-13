@@ -1,12 +1,12 @@
 #let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
-#let naslov = "ЈСД за опис пословних процеса"
+#let naslov = "Језик специфичан за домен пословних процеса"
 #let autor = "Бане Герић"
 
 // На енглеском
-#let naslov_eng = "DSL for business processes"
+#let naslov_eng = "A Domain-Specific Language for business processes"
 #let autor_eng = "Bane Gerić"
 
-#let indeks = "R232/2023"
+#let indeks = "R2 32/2023"
 
 // Име и презиме ментора
 #let mentor = "Игор Дејановић"
@@ -37,19 +37,25 @@
 
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
 #let zadatak = [
-  #lorem(100)
+    Истражити области језика специфичних за домен и описа пословних процеса.
+    Анализирати постојећа решења.
+    Дизајнирати и имплементирати језик специфичан за домен пословних процеса.
+    Упоредити решење са постојећим решењима и приступима у области.
+    
+    У изради користити најбољу праксу из области софтверског инжењерства.
+    Детаљно документовати решење.
 ]
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
-#let datum_odbrane = "01.01.2025"
-#let komisija_predsednik = "Петар Петровић"
-#let komisija_predsednik_zvanje = "ванредни професор"
-#let komisija_clan = "Марко Марковић"
-#let komisija_clan_zvanje = "доцент"
+#let datum_odbrane = "17.07.2026"
+#let komisija_predsednik = "Гордана Милосављевић"
+#let komisija_predsednik_zvanje = "редовни професор"
+#let komisija_clan = "Мирослав Зарић"
+#let komisija_clan_zvanje = "редовни професор"
 
 // На енглеском уписати чланове на латиници
-#let komisija_predsednik_eng = "Petar Petrović"
-#let komisija_clan_eng = "Marko Marković"
+#let komisija_predsednik_eng = "Gordana Milosavljević"
+#let komisija_clan_eng = "Miroslav Zarić"
 #let mentor_eng = "Igor Dejanović"
 
 
